@@ -5,12 +5,16 @@ body {
 
 h1 {
     font-family: Garamond;
-    font-size: 1px;
+    font-size: 19px;
 }
 
 h2 {
     font-family: sans-serif;
     font-size: 15px;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
 li, p {
@@ -19,4 +23,34 @@ li, p {
 
 strong {
     color: #ff309f;
+}
+
+li {
+    list-style-type: lower-roman;
+    padding-top: 10px;
+}
+
+li > ul > li {
+    list-style-type: lower-greek;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+img {
+    border-radius: 3px;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+pre {
+    background-color: #eff4f4;
+    border: 1px pink;
 }
