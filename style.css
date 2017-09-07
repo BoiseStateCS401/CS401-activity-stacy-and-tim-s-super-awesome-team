@@ -1,1 +1,22 @@
-p{}
+body {
+    background-color: #c5d7d8;
+    font-family: 'Bubblegum Sans', Arial;
+}
+
+h1 {
+    font-family: Garamond;
+    font-size: 1px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+li, p {
+    color: #171b1c;
+}
+
+strong {
+    color: #ff309f;
+}
