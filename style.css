@@ -52,5 +52,5 @@ img:hover {
 
 pre {
     background-color: #eff4f4;
-    border: 1px pink;
+    border-style: dotted;
 }
