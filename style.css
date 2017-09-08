@@ -54,3 +54,7 @@ pre {
     background-color: #eff4f4;
     border-style: dotted;
 }
+
+table {
+    border-style: solid;
+}
