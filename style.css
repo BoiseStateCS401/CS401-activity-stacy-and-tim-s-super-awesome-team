@@ -53,8 +53,11 @@ img:hover {
 pre {
     background-color: #eff4f4;
     border-style: dotted;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 200px;
 }
 
 table {
     border-style: solid;
-}
+}  
