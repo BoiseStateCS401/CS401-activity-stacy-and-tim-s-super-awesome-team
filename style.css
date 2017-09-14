@@ -66,7 +66,7 @@ pre {
 
 table {
     border-style: solid;
-}
+}  
 
 td {
     padding-left: 15px;
@@ -77,15 +77,36 @@ td {
 
 aside {
     float: left;
-    margin-right: 15px;
     width: 30%;
 }
 
+aside > img {
+}
+
 article {
-    margin-left: 35%;
-    width: 70%;
+    margin-left: 300px;
 }
 
 footer {
-    margin-top: 500px;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+#nav1 {
+    margin-right: 15px;
+}
+
+#nav2 {
+    margin-left: 15px;
+}
+
+header > img {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
