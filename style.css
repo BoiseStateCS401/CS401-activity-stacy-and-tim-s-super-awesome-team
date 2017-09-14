@@ -66,7 +66,7 @@ pre {
 
 table {
     border-style: solid;
-}  
+}
 
 td {
     padding-left: 15px;
@@ -82,7 +82,7 @@ aside {
 }
 
 article {
-    float: right;
+    margin-left: 35%;
     width: 70%;
 }
 
