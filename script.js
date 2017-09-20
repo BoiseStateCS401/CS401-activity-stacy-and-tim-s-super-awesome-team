@@ -1,29 +1,38 @@
 window.onload = function() {
 
-document.getElementById("theheader").onclick = changeColor;
-document.getElementById("logo").onclick = changeImage;
+  document.getElementById("theheader").onclick = changeColor;
+  document.getElementById("logo").onclick = changeImage;
 
-function changeColor() {
-	var header = document.getElementById("theheader");
-    if(header.className === "notclicked") { 
-	    header.style.color = "blue";
-        header.className = "clicked";
-    } else if (header.className === "clicked"){
-        header.style.color = "black";
-        header.className = "notclicked";
+  function changeColor() {
+    var header = document.getElementById("theheader");
+    if (header.className === "notclicked") {
+      header.style.color = "blue";
+      header.className = "clicked";
+    } else if (header.className === "clicked") {
+      header.style.color = "black";
+      header.className = "notclicked";
     }
-}
+  }
 
-function changeImage() {
+  function changeImage() {
     var logo = document.getElementById("logo");
 
-    if(logo.className === "notclicked") { 
-	    logo.src = "favicon2.png";
-        logo.className = "clicked";
-    } else if (logo.className === "clicked"){
-        logo.src = "sunglasses.png";
-        logo.className = "notclicked";
+    if (logo.className === "notclicked") {
+      logo.src = "favicon2.png";
+      logo.className = "clicked";
+    } else if (logo.className === "clicked") {
+      logo.src = "sunglasses.png";
+      logo.className = "notclicked";
     }
-}
+  }
+
+  var titleText = document.querySelector('h2');
+
+  titleText.addEventListener('click', updateName);
+
+  function updateName() {
+    var name = prompt('Enter a new name for these creatures');
+    titleText.textContent = 'Awesome ' + name;
+  }
 
 }
